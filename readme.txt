@@ -33,3 +33,12 @@ ii. git push -u origin master
 
 Git branch:
 1. git branch 'branch_name' // it will create new branch
+
+Generating SSH key in git :
+1. create a folder with the name '.ssh' then move to that file cd .ssh
+2. generate ssh ky using below command
+command: i.   ssh-keygen -t rsa -C 'email-id'   // -t means type to specify which method you are using to generate key ex: rsa and -C means combining rsa and your email id.
+	ii. ssh -T git@github.com // to pss private key using git
+3. copy the public key in git hub
+4. connect github using (ii) this command
+
