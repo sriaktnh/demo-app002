@@ -31,4 +31,5 @@ Pushing Our local project to GitHub:
 i. git remote add origin 'https://github.com/sriaktnh/demo-app002.git
 ii. git push -u origin master
 
-
+Git branch:
+1. git branch 'branch_name' // it will create new branch
