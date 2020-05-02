@@ -25,3 +25,10 @@ Git configs:
 git config --global user.name 'user_Name'
 git config --global user.email 'email_id'
 
+Pushing Our local project to GitHub:
+1. we need to create repository in the git with default settings.
+2. there are two commands for getting the intraction with github and our local changes
+i. git remote add origin 'https://github.com/sriaktnh/demo-app002.git
+ii. git push -u origin master
+
+
