@@ -21,4 +21,7 @@ Commit logs:
 1. git log --oneline // gives all previous commit id's only
 2 git reflog   // gives all previous changes like commits, merges, checkouts ext
 
+Git configs:
+git config --global user.name 'user_Name'
+git config --global user.email 'email_id'
 
