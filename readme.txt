@@ -45,3 +45,5 @@ command: i.   ssh-keygen -t rsa -C 'email-id'   // -t means type to specify whic
 Cloning existing project from github:
 1. git clone 'git@github.com:sriaktnh/web-application.git' // you can specify the folder name at end.
 
+Check Remote Connection:
+1. git remote -v
