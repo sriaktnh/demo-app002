@@ -9,7 +9,6 @@ Git Commit:
 2. git commit -am 'file path '  // it will add our local changes to stage and the commit the changes
 
 Time Tavel with Reset and Reflag:
-1.git hist   // to get the commit histery
 i. there are threee types of Reset modes:
 	--soft
 	--default (mixed)
@@ -47,3 +46,21 @@ Cloning existing project from github:
 
 Check Remote Connection:
 1. git remote -v
+
+Mergiing the branches in local:
+1. git merge 'branch name'
+
+Push your local project to git:
+1. create a new repository in git.
+2. goto your project in git bash and run 'git init' it will add git feature to your local project
+3. commit all your changes in locally by using below commands 
+  i) git add .
+  ii) git commit -m 'commit massege'
+4. add remote connection to your project.
+  i) copy the ssh key from the github
+  ii) git remote add origin 'ssh key'
+  iii) check remote key is added or not by using "git remote -v"
+5. push your local changes to git.
+  i) git push --set-upstream origin master
+  ii) if above command gives any error create local branch "git checkout -b 'branch-name" 
+  iii)push this branch to git "git push --set-upstream origin 'branch-name' "
