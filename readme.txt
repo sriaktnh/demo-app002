@@ -64,3 +64,7 @@ Push your local project to git:
   i) git push --set-upstream origin master
   ii) if above command gives any error create local branch "git checkout -b 'branch-name" 
   iii)push this branch to git "git push --set-upstream origin 'branch-name' "
+  
+  Git squash:
+  1. git rebase -i HEAD~[no. of commits]
+  examples git rebase -i HEAD~2
