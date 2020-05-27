@@ -68,3 +68,5 @@ Push your local project to git:
   Git squash:
   1. git rebase -i HEAD~[no. of commits]
   examples git rebase -i HEAD~2
+ 2. pushing the squash to git
+ 	git push origin branch_name -f or --force
